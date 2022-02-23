@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    background: rgb(160, 236, 163);
+
+
+}
+
+.container {
+
+    background-color:#fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    max-width: 800px;
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+    height:500px ;
+    
+}
+
+.container .text{
+
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(160, 207, 162);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container form  {
+    padding: 30px 0 0 0 0;
+    color:rgb(87, 133, 88); 
+}
+
+.container form .form-areas {
+
+    display: flex;
+    margin: 32px 0;
+}
+
+form .form-areas .input-data {
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+
+
+}
+
+form .form-areas .input-datas {
+    width: 100%;
+    height: 40px;
+    position: relative;
+
+
+}
+
+form .form-areas .textarea {
+    height: 70px;
+    
+}
+
+
+.input-data input,
+.textarea textarea{
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgb(119, 206, 122);
+}
+
+::placeholder{
+
+    color: rgb(38, 97, 40);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textarea textarea {
+
+    resize: none;
+    padding-top: 10px;
+}
+
+.submit-btn .input-datas{
+    overflow: hidden;
+    height: 45px!important;
+    width: 25%!important;
+    
+   
+  }
+  .submit-btn .input-datas .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background:rgb(105, 189, 108);
+    transition: all 0.4s;
+  }
+  .submit-btn .input-datas:hover .inner{
+    
+    background:rgb(74, 138, 77) ;
+  }
+  .submit-btn .input-datas input{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+@media (max-width: 700px) {
+    .container .text{
+      font-size: 30px;
+    }
+    .container form{
+      padding: 10px 0 0 0;
+    }
+    .container form .form-row{
+      display: block;
+    }
+    form .form-row .input-data{
+      margin: 35px 0!important;
+    }
+    .submit-btn .input-datas{
+      width: 40%!important;
+    }
+
+    ::placeholder{
+
+        font-size: 15px;
+    }
+  }
+
