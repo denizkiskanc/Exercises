@@ -1,11 +1,11 @@
 # Exercises
 
-<br>Demo</br>
+<b>Demo</b>
 [Exercise -1](https://denizkiskanc.github.io/Exercises/exercises-1) 
 <br>
 [Exercise -2](https://denizkiskanc.github.io/Exercises/exercises-2) 
 
-<br>Used Technologies</br>
+<b>Used Technologies<b>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
